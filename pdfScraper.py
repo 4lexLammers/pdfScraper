@@ -44,7 +44,6 @@ for link in a_tags:
 
     # lazy error handling
     except Exception as e:
-        print("Failed to download " + s.split("/")[-1])
         print("\tError: " + str(e))
         
 print("Finished.")
